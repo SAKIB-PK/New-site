@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-image:url('img/black laptop.jpg');
+    background-repeat:repeat-x;
+    background-size:cover;
+    
+    
+}
+.Navbar{
+    background-color:rgb(0,100,0);
+    text-align:center;
+
+}
+.Navbar ul{
+    list-style-type:none;
+    overflow:hidden;
+
+
+}
+.Navbar li{
+    display:inline-block;
+    padding:20px;
+    margin:10px;
+    
+}
+.Navbar ul a{
+    text-decoration:none;
+    color:#fff;
+    width:125px;
+    
+
+}
+.active,.Navbar ul li:hover{
+    background-color:#2bab0d;
+    border-radius:3px;
+}
